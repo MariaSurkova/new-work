@@ -6,7 +6,7 @@ int Number2 = Convert.ToInt32(Console.ReadLine());
 
 if(Number1 > Number2)
 {
-        Console.WriteLine($"Max = {Number1}");}
+        Console.WriteLine($"a = {Number1}; b = {Number2} -> Max = {Number1}");}
 else
 {
-    Console.WriteLine($"Max = {Number2}");}
+    Console.WriteLine($"a = {Number1}; b = {Number2} -> Max = {Number2}");}
